@@ -12,6 +12,6 @@ pip install openvino==2023.3.0
 
 ## benchmark
 
-- Reproduce NM paper: `ds_reproduce.bash`
+- Reproduce NM paper: `deepsparse_reproduce.bash`
 - Export IR models: `export_ir.bash` & `export_ir_w_mask.bash`(sparse models)
 - OV benchmarkapp: see the files: `benchmarkapp_*.bash`, or see `run_ov_benchmark_app.bash` (more complicated; codes are not well organized).
