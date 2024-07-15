@@ -5,9 +5,11 @@
 Install pytorch and:
 
 ```bash
-pip install tabulate transformers==4.35  optimum-intel[openvino]==1.13.0 nncf==2.7.0
-pip install deepsparse-nightly[llm]==1.6.0.20231120
-pip install openvino==2023.3.0
+pip install torch==2.3.1 https://download.pytorch.org/whl/cpu
+pip install tabulate transformers==4.42.4  optimum-intel[openvino]==1.18.1 nncf==2.11.0
+pip install datasets==2.20.0 accelerate==0.32.1
+pip install openvino==2024.2.0
+# pip install deepsparse-nightly[llm]==1.6.0.20231120
 ```
 
 ## benchmark
