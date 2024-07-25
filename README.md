@@ -1,5 +1,16 @@
 # 24h1-sparse-quantized-llm-ov
 
+## 2024 July 24 (Branch: 240724-llama2-50)
+```bash
+pip install deepsparse-nightly[llm] # deepsparse-nightly==1.8.0.20240502
+
+# reproduce NM's
+./deepsparse_reproduce_llama2.bash
+# official results
+# https://sparsezoo.neuralmagic.com/models/llama2-7b-gsm8k_llama2_pretrain-pruned50?comparison=llama2-7b-gsm8k_llama2_pretrain-base&hardware=deepsparse-m7i.4xlarge
+# https://sparsezoo.neuralmagic.com/models/llama2-7b-gsm8k_llama2_pretrain-pruned50_quantized?comparison=llama2-7b-gsm8k_llama2_pretrain-base&hardware=deepsparse-m7i.4xlarge
+```
+
 ## setup
 
 Install pytorch and:
