@@ -1,4 +1,4 @@
-models="zoo:llama2-7b-gsm8k_llama2_pretrain-base \
+models="llama2-7b-gsm8k_llama2_pretrain-base \
     llama2-7b-gsm8k_llama2_pretrain-base_quantized \
     llama2-7b-gsm8k_llama2_pretrain-pruned50_quantized"
 
